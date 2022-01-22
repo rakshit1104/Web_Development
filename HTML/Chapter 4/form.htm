@@ -8,11 +8,27 @@
 </head>
 <body>
     <div>
-        <h1>Travel Form</h1>
+        <h1><u>Form</u></h1>
         <form action="form.php">
-            <input type="text" placeholder="Enter your Name">
-            <input type="radio" value="Section a" name="section"> Rakshit
+            Name: <input type="text" placeholder="Enter your Name" name="">
+            <br>
+            Password: <input type="password" placeholder="Enter your Password" name="">
+            <br>
+            Email ID: <input type="email" placeholder="Enter your e-mail ID" name="">
+            <br>
+            Select your Car:<input type="radio" name="Select your Car:"> Baleno
+            <input type="radio" name="Select your Car:"> Swift
+            <input type="radio" name="Select your Car:"> Altroz
+            <br>
+            <select name="Select" id="Car">
+                <option value="Select">Baleno</option>
+                <option value="Select">Swift</option>
+                <option value="Select">Altroz</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
         </form>
     </div>
 </body>
 </html>
+
